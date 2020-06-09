@@ -173,11 +173,11 @@ height:470px;
 }
 .footerpart
 {
-	width:1385px;
+	width:auto;
 	height:25px;
 	margin-top:5px;
 	background-color:rgb(12,100,198);
-	
+	text-align:center;
 	  border-style:groove;
 	
 }
