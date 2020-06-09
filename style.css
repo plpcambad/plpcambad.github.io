@@ -9,7 +9,7 @@
   .my_menu
  {
 	 position: absolute;
-	  width: 103%;
+	  width: 100%;
 	 height: auto;
      background-color: dodgerblue;
  }
@@ -177,7 +177,9 @@ height:470px;
 	height:25px;
 	margin-top:5px;
 	background-color:rgb(12,100,198);
+	text-align:center;
 	  border-style:groove;
+
 }
 
 	.body{
