@@ -16,13 +16,13 @@
 
  .menu{
 	  position: absolute;
-	 width: 100%;
+	 width: 99%;
 	 height: auto;
      background-color: dodgerblue;
  }
  .menu li{
      list-style: none;
-    width: 160px;
+    width: -100%;
 	height: 60px;
 background-color: #2196f3;
 margin-left: 40px;
@@ -174,7 +174,7 @@ height:470px;
 }
 .footerpart
 {
-	width:auto;
+	width:102%;
 	height:25px;
 	margin-top:5px;
 	background-color:rgb(12,100,198);
