@@ -1,0 +1,271 @@
+  body{
+	  margin: 0px;
+	  padding: 0px;
+ }
+ ul{
+	 margin: 0px;
+	 padding: 0px;
+ }
+  .my_menu
+ {
+	 position: absolute;
+	  width: 100%;
+	 height: auto;
+     background-color: dodgerblue;
+ }
+
+ .menu{
+	  position: absolute;
+	 width: 100%;
+	 height: auto;
+     background-color: dodgerblue;
+ }
+ .menu li{
+     list-style: none;
+    width: 160px;
+	height: 60px;
+background-color: #2196f3;
+margin-left: 40px;
+text-align: center;
+line-height:60px;
+float: left;
+
+	}
+	.menu li:hover{
+		background-color: black;
+		
+	}
+	 .menu li a:hover{
+		 color:aqua;
+	 }
+	 .menu li a {  
+	 color: white;
+display: block;	
+text-decoration: none;
+	}
+	.logo{
+		width: 60px;
+	}
+	.logo_li:hover{
+		background-color:#2196f3 ! important;
+	}
+	.menu ul li{
+		margin: 0px;
+	}
+	.menu ul{
+		display: none;	
+	}
+	.menu li:hover ul{
+		display: block;
+		
+		
+		
+		
+	}
+	.bodypart
+	{ 
+	  width:1000px;
+	  height:550px;
+	  border-style:groove;
+	  margin-top:50px;
+	    margin-left:10px;
+	}
+		.bodypart
+	{ 
+	  width:auto;
+	  height:560px;
+	  border-style:groove;
+	  margin-top:50px;
+	    margin-left:10px;
+	}
+	
+	.bodypart .imagepart
+	{
+		width:800px;
+		height:400px;
+		border-style:groove;
+		 margin-top:5px;
+	    margin-left:5px;
+		background-repeat:no-repeat;
+		background-image:url('image/banner.jpg');
+		animation: slide 20s infinite; 
+		
+	}
+	
+	@keyframes slide{
+		10%{
+		background-image:url('image/banner1.jpg');
+	}
+	 20%{
+		background-image:url('image/banner2.jpg');
+	 }
+	30%{
+		 background-image:url('image/banner3.jpg');
+	 }
+	 40%{
+		 background-image:url('image/banner4.jpg');
+		
+	 }
+		 50%{
+		 background-image:url('image/banner5.jpg');
+		
+	 }
+		60%{
+		 background-image:url('image/banner6.jpg');
+		
+	 }
+		 70%{
+		 background-image:url('image/banner7.jpg');
+		
+	 }
+	
+		80%{
+		 background-image:url('image/banner8.jpg');
+		
+	 }
+	
+	}
+	.bodypart .newspart
+	{
+	  width:500px;
+	  height:550px;
+      border-style:groove;
+		
+	}
+ .bodypart .newspart
+ {
+	float:right;	
+	margin-top:-30.76%;	
+ }
+.bodypart .newspart h2
+{
+	color:green;
+	margin-left:10px;
+}
+.bodypart .newspart .news
+{  
+width:493px;
+height:470px;
+}
+.bodypart .newspart .news h4
+{
+	color:blue;
+	margin-top:-6%;
+	font-size: 120%;
+}
+.bodypart .newspart .news h5
+{
+	color:red;
+	font-size: 120%;
+}
+.bodypart .newspart .news h6 
+{
+	   color:green;
+	   font-size: 120%;
+       margin-top:-5%;
+
+}
+.bodypart h3 
+{
+	color:blue;
+	text-align:center;
+	
+}
+.footerpart
+{
+	width:1343px;
+	height:25px;
+	margin-top:5px;
+	background-color:rgb(12,100,198);
+	
+	  border-style:groove;
+	
+}
+
+	.body{
+		margin:0;
+		padding:0;
+		
+		
+	}
+	
+	#outerbox
+	{  
+       }
+	   sliderbox
+	   {
+	  width:auto;
+	  height:800px;
+	   }
+		
+		
+
+		
+	
+	/*why choose us*/
+	#why_choose{
+		 width:100%;
+		 text-align: center;
+	}
+	#why_choose h1{
+		margin: 0 auto;
+		width:300px;
+		text-align: center;
+		font-size: 30px;
+		color: red;
+	    border-bottom: 2px solid red;		
+	}
+	 
+	 .div_section1{
+		 width: 20%;
+		 height: 320px;
+		 margin: 30px;
+		 float: left;
+	 }
+	.icon{
+		width: 120px;
+		height: 120px;
+		border: 1px solid gray;
+	    margin: 10px auto;
+		line-height: 120px;
+		font-size: 50px;
+		background-color: darkred;
+		border-radius:100px;
+		transition-duration: 0.3s;
+		
+	}
+	
+	.icon:hover{
+	  font-size: 40px;
+	
+	}
+	
+	
+	
+	/* section2*/
+	.section2{
+		    width: 100%;
+		   text-align: center;
+	}
+	
+	.section2 h1{
+		   margin: 0 auto;
+		  width:400px;
+		  font-size:30px;
+		  color: red ! important;
+		  border-bottom: 2px solid red ! important;
+	}
+	.div_section2 {
+		 width: 30%;
+		 height: 300px;
+		 margin:20px;
+		 float: left;
+	}
+	.div_section2 img {
+		width:100%;
+		
+	}
+	
+	
+	
+	
