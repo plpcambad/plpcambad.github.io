@@ -16,13 +16,13 @@
 
  .menu{
 	  position: absolute;
-	 width: 99%;
+	 width: 100%;
 	 height: auto;
      background-color: dodgerblue;
  }
  .menu li{
      list-style: none;
-    width: -100%;
+    width: 160px;
 	height: 60px;
 background-color: #2196f3;
 margin-left: 40px;
