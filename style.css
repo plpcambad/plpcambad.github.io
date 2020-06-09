@@ -9,7 +9,7 @@
   .my_menu
  {
 	 position: absolute;
-	  width: 100%;
+	  width: 103%;
 	 height: auto;
      background-color: dodgerblue;
  }
@@ -64,7 +64,7 @@ text-decoration: none;
 	}
 	.bodypart
 	{ 
-	  width:1000px;
+	  width:100%;
 	  height:550px;
 	  border-style:groove;
 	  margin-top:50px;
@@ -72,7 +72,7 @@ text-decoration: none;
 	}
 		.bodypart
 	{ 
-	  width:auto;
+	  width:100%;
 	  height:560px;
 	  border-style:groove;
 	  margin-top:50px;
@@ -135,7 +135,7 @@ text-decoration: none;
  .bodypart .newspart
  {
 	float:right;	
-	margin-top:-30.76%;	
+	margin-top:-30.40%;	
  }
 .bodypart .newspart h2
 {
@@ -173,7 +173,7 @@ height:470px;
 }
 .footerpart
 {
-	width:1343px;
+	width:1390px;
 	height:25px;
 	margin-top:5px;
 	background-color:rgb(12,100,198);
@@ -266,6 +266,5 @@ height:470px;
 		
 	}
 	
-	
-	
+
 	
