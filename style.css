@@ -157,6 +157,18 @@ text-decoration: none;
 		 background-image:url('image/banner8.jpg');
 	
 	 }
+	 	
+		90%{
+		 background-image:url('image/banner9.jpg');
+	
+	 }
+	 	
+		100%{
+		 background-image:url('image/banner10.jpg');
+	
+	 }
+
+
 
 	}
 	.bodypart .newspart
