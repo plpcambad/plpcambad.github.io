@@ -1,9 +1,14 @@
   body{
-	  width:800px;
-	  height:800px;
+	  width:1350px;
+	  height:1200px;
 	  margin: 0px;
 	  padding: 0px;
-	  background-color:white;
+	  background-color:#D5F014;
+	   zoom: 1.0;
+	 width: extend-to-zoom;
+	  width: expand-to-zoom;
+	 zoo: 1.0;
+	 
  }
  @viewport{
 	 zoom: 1.0;
@@ -19,6 +24,7 @@
 	 margin: 0px;
 	 margin-top:0px;
 	 padding: 0px;
+	 
  }
   .my_menu
  {
@@ -27,7 +33,13 @@
 	 height: 65px;
      background-color: dodgerblue;
 	  margin-top:-2px;
+	  
+
+
+
  }
+ 
+ 
 
  .menu{
 	  position: absolute;
@@ -35,6 +47,7 @@
 	 height: 10px;
      background-color: dodgerblue;
 	  margin-top:1px;
+	  
  }
  .menu li{
      list-style: none;
