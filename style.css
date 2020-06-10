@@ -1,6 +1,7 @@
   body{
 	  margin: 0px;
-	  padding: 45%px;
+	  padding: 0px;
+	  background-color:white;
  }
  ul{
 	 margin: 0px;
@@ -89,47 +90,65 @@ text-decoration: none;
 		background-repeat:no-repeat;
 		background-image:url('image/banner.jpg');
 		animation: slide 20s infinite; 
-		
+      image-size:100%;
 	}
 	
 	@keyframes slide{
 		10%{
 		background-image:url('image/banner1.jpg');
+			  padding left:-50px;
+		
 	}
 	 20%{
 		background-image:url('image/banner2.jpg');
+			  padding left:-50px;
+			  background-size:100%;
 	 }
 	30%{
 		 background-image:url('image/banner3.jpg');
+		 	  padding left:-50px;
+			  background-size:100%;
 	 }
 	 40%{
 		 background-image:url('image/banner4.jpg');
-		
+			  padding left:-50px;
+		background-size:100%;
 	 }
 		 50%{
 		 background-image:url('image/banner5.jpg');
+			  padding left:-50px;
 		
 	 }
 		60%{
 		 background-image:url('image/banner6.jpg');
-		
+		  	  padding left:-50px;
+		background-size:100%;
 	 }
 		 70%{
 		 background-image:url('image/banner7.jpg');
-		
+			  padding left:-50px;
+		background-size:100%;
 	 }
 	
 		80%{
 		 background-image:url('image/banner8.jpg');
-		
+		  padding left:-50px;
+		background-size:100%;
 	 }
+	   .imagepart{
+		   background-size:100%;
+		   
+		   
+		   
+		   
+	   }
 	
 	}
 	.bodypart .newspart
 	{
 	  width:500px;
 	  height:550px;
-      border-style:groove;
+ 
 		
 	}
  .bodypart .newspart
