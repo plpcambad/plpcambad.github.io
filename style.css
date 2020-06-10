@@ -80,6 +80,7 @@ text-decoration: none;
 	  border-style:groove
 	  margin-top:50px;
 	    margin-left:10px;
+		  
 	}
 	
 	.bodypart .imagepart
@@ -92,7 +93,7 @@ text-decoration: none;
 		background-repeat:no-repeat;
 		background-image:url('image/banner.jpg');
 		animation: slide 20s infinite; 
-
+   
 	}
 	
 	@keyframes slide{
@@ -133,19 +134,21 @@ text-decoration: none;
 	}
 	.bodypart .newspart
 	{
-	  width:500px;
+	  width:auto;
 	  height:550px;
- 
+      background-size:auto;
 		
 	}
  .bodypart .newspart
  {
-	float:right;	
-	margin-top:-30.40%;	
+	float:right;
+  	
+	margin-top:-30.40%;
+    padding:-40px;	
  }
 .bodypart .newspart h2
 {
-	color:green;
+	color:red;
 	margin-left:10px;
 }
 .bodypart .newspart .news
