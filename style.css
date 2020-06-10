@@ -5,6 +5,16 @@
 	  padding: 0px;
 	  background-color:white;
  }
+ @viewport{
+	 zoom: 1.0;
+	 width: extend-to-zoom;
+	 
+ }
+ @-ms-viewport{
+	 width: expand-to-zoom;
+	 zoo: 1.0;
+	 
+ }
  ul{
 	 margin: 0px;
 	 margin-top:0px;
